@@ -1,0 +1,35 @@
+[off-canvas] {
+	background: #fff;
+}
+
+html.hm-open,
+body.hm-open {
+	height: 100%;
+	overflow: hidden;
+}
+
+//Tablet
+@media (min-width: 768px) {
+	[canvas],[off-canvas] {
+		-webkit-transform: none;
+		   -moz-transform: none;
+		    -ms-transform: none;
+		     -o-transform: none;
+		        transform: none;
+	}
+}
+
+//PC
+@media (min-width: 992px) {
+	html,body {
+		//height: 100%;
+	}
+	[canvas=container] {
+		//overflow-y: visible;
+	}
+
+}
+
+//PC Wide
+@media (min-width: 1200px) {
+}

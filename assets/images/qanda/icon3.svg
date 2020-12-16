@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="99" height="99" viewBox="0 0 99 99">
+  <g id="グループ_912" data-name="グループ 912" transform="translate(-651 -461)">
+    <g id="楕円形_30" data-name="楕円形 30" transform="translate(651 461)" fill="#fff" stroke="#cc1215" stroke-width="1">
+      <circle cx="49.5" cy="49.5" r="49.5" stroke="none"/>
+      <circle cx="49.5" cy="49.5" r="49" fill="none"/>
+    </g>
+    <g id="楕円形_42" data-name="楕円形 42" transform="translate(669 479)" fill="#fff" stroke="#cc1215" stroke-width="2">
+      <circle cx="32" cy="32" r="32" stroke="none"/>
+      <circle cx="32" cy="32" r="31" fill="none"/>
+    </g>
+    <text id="DK" transform="translate(699.5 521)" fill="none" stroke="#cc1215" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" font-size="28" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="-20.221" y="0">DK</tspan></text>
+    <g id="グループ_904" data-name="グループ 904" transform="translate(560.92 306.304)">
+      <path id="パス_1065" data-name="パス 1065" d="M166.367,183.057a2.683,2.683,0,0,1-1.972-1.972l-1.16-6.078c-.174-.911-.458-.911-.632,0l-1.16,6.078a2.683,2.683,0,0,1-1.972,1.972l-6.078,1.16c-.911.174-.911.458,0,.632l6.078,1.16a2.683,2.683,0,0,1,1.972,1.972l1.16,6.078c.174.911.458.911.632,0l1.16-6.078a2.683,2.683,0,0,1,1.972-1.972l6.078-1.16c.911-.174.911-.458,0-.632Z" transform="translate(0)" fill="#cc1215"/>
+    </g>
+    <g id="グループ_905" data-name="グループ 905" transform="translate(510.967 342.352)">
+      <path id="パス_1065-2" data-name="パス 1065" d="M170.316,185.583a3.459,3.459,0,0,1-2.542-2.542l-1.5-7.836c-.224-1.174-.591-1.174-.815,0l-1.5,7.836a3.459,3.459,0,0,1-2.542,2.542l-7.836,1.5c-1.174.224-1.174.591,0,.815l7.836,1.5a3.459,3.459,0,0,1,2.542,2.542l1.5,7.836c.224,1.174.591,1.174.815,0l1.5-7.836a3.459,3.459,0,0,1,2.542-2.542l7.836-1.5c1.174-.224,1.174-.591,0-.815Z" transform="translate(0 0)" fill="#cc1215"/>
+    </g>
+  </g>
+</svg>

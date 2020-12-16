@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="99" height="99" viewBox="0 0 99 99">
+  <g id="グループ_911" data-name="グループ 911" transform="translate(-872 -461)">
+    <g id="楕円形_29" data-name="楕円形 29" transform="translate(872 461)" fill="#fff" stroke="#cc1215" stroke-width="1">
+      <circle cx="49.5" cy="49.5" r="49.5" stroke="none"/>
+      <circle cx="49.5" cy="49.5" r="49" fill="none"/>
+    </g>
+    <g id="グループ_909" data-name="グループ 909">
+      <g id="グループ_908" data-name="グループ 908">
+        <g id="長方形_772" data-name="長方形 772" transform="translate(895 493)" fill="#fff" stroke="#cc1215" stroke-width="2">
+          <rect width="54" height="36" rx="4" stroke="none"/>
+          <rect x="1" y="1" width="52" height="34" rx="3" fill="none"/>
+        </g>
+        <rect id="長方形_773" data-name="長方形 773" width="8" height="8" transform="translate(933 500)" fill="#cc1215"/>
+        <g id="グループ_907" data-name="グループ 907" transform="translate(-1 4)">
+          <rect id="長方形_774" data-name="長方形 774" width="8" height="3" transform="translate(903 516)" fill="#cc1215"/>
+          <rect id="長方形_775" data-name="長方形 775" width="8" height="3" transform="translate(914 516)" fill="#cc1215"/>
+          <rect id="長方形_776" data-name="長方形 776" width="8" height="3" transform="translate(925 516)" fill="#cc1215"/>
+          <rect id="長方形_777" data-name="長方形 777" width="8" height="3" transform="translate(936 516)" fill="#cc1215"/>
+        </g>
+        <rect id="長方形_778" data-name="長方形 778" width="25" height="1" transform="translate(902 506)" fill="#cc1215"/>
+      </g>
+    </g>
+  </g>
+</svg>

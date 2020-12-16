@@ -1,0 +1,129 @@
+::placeholder {
+  color: #000000;
+}
+
+[type=text] {
+	line-height: normal;
+}
+
+
+.form-item-box {
+	input[type=text],
+	input[type=date],
+	input[type=email],
+	textarea,
+	select {
+		padding: 8px 10px 8px 10px;
+		width: 100%;
+		color: #333;
+		border: #707070 solid 1px;
+		background-color: #fff;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		line-height: normal;
+	}
+	input[type=text] {
+		background: #F0F0F0;
+	}
+	textarea {
+		height: 140px;
+		resize: none;
+	}
+	select {
+		background-image: url(../images/common/icon/icon-select.svg);
+		background-repeat: no-repeat;
+		background-position: calc(100% - 18px) center;
+		-webkit-bacpkground-size: 16px 8px;
+		-o-background-size: 16px 8px;
+		background-size: 16px 8px;
+		-webkit-border-radius: 30px;
+		border-radius: 30px;
+		padding-left: 20px;
+		padding-right: 20px;
+		text-align: -webkit-center;
+		text-align: center;
+		
+	}
+}
+
+input.reset-button {
+	margin: 0 auto;
+	padding: 0;
+	background: none;
+	border: none;
+	outline: none;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	padding: 1em 2.5em;
+	color: #000;
+	text-align: center;
+	background: #E9EBEB;
+	display: block;
+	line-height: 1;
+	cursor: pointer;
+	display: block;
+}
+
+input.submit-button {
+	@include fsz($pc-fsz-xd15);
+	cursor: pointer;
+	padding: 10px 0;
+	width: 100%;
+	line-height: 1;
+	background-color: #fff;
+	color: #333;
+	border: $red solid 1px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+	&:hover {
+		@extend .hov;
+	}
+}
+
+input.reset-button {
+	@include fsz($pc-fsz-xd12);
+	cursor: pointer;
+	padding: 10px 0;
+	width: 100%;
+	line-height: 1;
+	background-color: #EFEFEF;
+	color: #ccc;
+	&:hover {
+		@extend .hov;
+	}
+}
+
+.icon-plus {
+	cursor: pointer;
+	display: inline-block;
+	padding-right: 21px;
+	background: url(../images/common/icon/icon-plus.svg) no-repeat right center;
+	-webkit-background-size: 16px;
+	-o-background-size: 16px;
+	background-size: 16px;
+	span {
+		@include fsz($pc-fsz-xd14);
+		border-bottom: #707070 1px solid;
+		line-height: 1;
+	}
+	&:hover {
+		border-bottom: none;
+	}
+}
+
+.form-btn-box {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.form-box {
+	padding: 20px 20px 5px;
+	.form-item-box {
+		margin-bottom: 15px;
+	}
+}
+
+
+

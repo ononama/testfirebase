@@ -1,0 +1,38 @@
+.page-main{
+	&-area{
+		position: relative;
+		height: 260px;
+		width: 100%;
+		background: url(../images/common/ttl/bg-page-main.jpg) no-repeat;
+		background-size:cover;
+		.ttl-tag{
+			position:absolute;
+			left:50%;
+			top:50%;
+			transform: translate(-50%,-50%);
+			.ttl-head{
+				background: url(../images/common/ttl/ttl-page.svg) no-repeat center;
+			}
+			.ttl-bottom{
+				color: #fff;
+				background:none;
+				padding-bottom: 0;
+			}
+		}
+	}
+}
+@media (max-width: 768px) {
+	.page-main{
+		&-area{
+			height: 180px;
+			.ttl-tag{
+				.ttl-head{
+					line-height: 2.4;
+				}
+				.ttl-bottom{
+					padding-bottom: 0;
+				}
+			}
+		}
+	}
+}

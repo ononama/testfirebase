@@ -1,0 +1,128 @@
+.btn-search-footer {
+	margin-top: 20px;
+	width: 100%;
+	a {
+		padding: 50px 0 60px;
+	}
+	.ttl-head {
+		@include fsz($pc-fsz-xd17);
+		width: 185px;
+		height: 58px;
+		line-height: 58px;
+		top: -26px;
+	}
+	.ttl-bottom {
+		@include fsz($pc-fsz-xd38);
+		padding-left: 60px;
+	}
+}
+
+
+footer {
+	margin: 0;
+	padding: 60px 0 0;
+	width: 100%;
+	.footer-container {
+		@include fsz($sp-fsz-xd14);
+		color: #999;
+		.footer-logo-head-box {
+			margin: 0 auto 60px;
+			max-width: 1060px;
+			display: flex;
+			-webkit-justify-content: space-between;
+			justify-content: space-between;
+			-webkit-align-items: center;
+			align-items: center;
+			.footer-logo-box {
+				width: 310px;
+				margin-bottom: 0;
+				padding: 0;
+				.logo {
+					height: 27px;
+					line-height: 1;
+					img {
+						width: auto;
+						height: 100%;
+					}
+				}
+			}
+			.footer-head-box {
+				width: calc(100% - 310px);
+				padding: 0;
+				ul {
+					li {
+						margin-bottom: 1em;
+						a {
+							color: #fff;
+							font-weight: 700;
+						}
+					}
+				}
+				display: flex;
+				-webkit-justify-content: space-between;
+				justify-content: space-between;
+				.box-l {
+					width: 33%;
+				}
+				.box-c {
+					width: 33%;
+				}
+				.box-r {
+					width: 33%;
+				}
+			}
+		}
+
+		.footer-bottom-box {
+			//padding: 30px 20px 20px;
+			height: 65px;
+			margin: 0;
+			padding: 0;
+			//background: $blackDark;
+			.box {
+				margin: 0 auto;
+				max-width: 1060px;
+				height: 65px;
+				display: flex;
+				-webkit-justify-content: space-between;
+				justify-content: space-between;
+				-webkit-flex-direction: row-reverse;
+				-ms-flex-direction: row-reverse;
+				flex-direction: row-reverse;
+				-webkit-align-items: center;
+				align-items: center;
+				.footer-bottom-nav-box {
+					margin-bottom: 0;
+					ul {
+						display: flex;
+						-webkit-justify-content: space-between;
+						justify-content: space-between;
+						li {
+							border-right: #fff 1px solid;
+							margin: 0 20px 0 0;
+							padding: 0 20px 0 0;
+							a {
+								@include fsz($pc-fsz-xd12);
+							}
+							&:last-child {
+								border-right: none;
+								margin-right: 0;
+								padding-right: 0;
+							}
+						}
+					}
+				}
+				.footer-bottom-copyright-box {
+					.copyright {
+						@include fsz($pc-fsz-xd12);
+						margin: 0;
+						padding: 0;
+						color: #fff;
+						line-height: 1;
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
+}

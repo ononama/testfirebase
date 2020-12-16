@@ -1,0 +1,39 @@
+body {
+	font-size: 1.6rem;
+}
+
+.br-tb {
+	display: block;
+}
+
+.br-tb-pc {
+	display: block;
+}
+
+p {
+	&.mt {
+		margin-top: 60px;
+	}
+}
+
+
+.mq-pc {
+	display: block;
+}
+
+.mq-sp {
+	display: none;
+}
+
+#pagetop-box {
+	
+	bottom: 65px;
+	.pagetop {
+		width:66px;
+	}
+}
+
+.anchor {
+	margin-top: -($pc-anchor-hegiht);
+	padding-top: $pc-anchor-hegiht;
+}

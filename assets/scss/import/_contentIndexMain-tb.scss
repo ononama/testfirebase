@@ -1,0 +1,145 @@
+#sec-index-main-sp {
+	display: none;
+}
+
+#sec-index-main-pc {
+	position: relative;
+	display: block;
+	margin: 0 0 30px;
+	.cover {
+		width: 100%;
+		height: 0;
+		padding-top: 70%;
+		background: rgba(0, 0, 0, 0.5);
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: 190;
+	}
+	.ttl {
+		opacity: 0;
+		font-weight: 700;
+		letter-spacing: 0.1em;
+		position: absolute;
+		left: 50%;
+		top: 60%;
+		-webkit-transform: translate(-50%,-50%);
+		-moz-transform: translate(-50%,-50%);
+		-ms-transform: translate(-50%,-50%);
+		transform: translate(-50%,-50%);
+		color: #fff;
+		z-index: 200;
+		text-align: center;
+		@include fsz($pc-fsz-xd40);
+		span {
+			@include fsz($pc-fsz-xd28);
+		}
+	}
+	#index-main-btn-scloll {
+		display: none;
+		text-align: center;
+		position: absolute;
+		left: 50%;
+		bottom: 80px;
+		z-index: 500;
+		-webkit-transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
+		a {
+			@include fsz($pc-fsz-xd13);
+			font-family: $basefontEn;
+			color: #fff;
+			letter-spacing: 0.1em;
+			position: relative;
+			padding-top: 30px;
+			span {
+				display: block;
+				text-align: center;
+				position: absolute;
+				left: 50%;
+				-webkit-transform: translateX(-50%);
+				-moz-transform: translateX(-50%);
+				-ms-transform: translateX(-50%);
+				transform: translateX(-50%);
+				top: 0;
+			}
+			&:hover {
+				span {
+					animation-name: indexMainBtnScloll;
+					animation-duration: 1s;
+					animation-delay: 0s;
+					animation-iteration-count: infinite;
+				}
+			}
+		}
+	}
+}
+
+@keyframes indexMainBtnScloll {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 8px;
+  }
+}
+
+#index-main-search-pc {
+	width: 315px;
+	background: #fff;
+	position: absolute;
+	left: 30px;
+	top: 30px;
+	z-index: 300;
+	display: none;
+}
+
+#index-main-pc {
+	position: relative;
+	&.swiper-container {
+		width: 100%;
+	}
+	.swiper-wrapper {
+		width: 100%;
+		.swiper-slide {
+			.bgimage-box {
+				width: 100%;
+				height: 0;
+				padding-top: 70%;
+				-webkit-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+				background-position: center;
+			}
+			.txt-box {
+				margin-top: 20px;
+				padding-right: 28px;
+				background: #fff;
+				text-align: right;
+				p {
+					@include fsz($pc-fsz-xd12);
+					color: #000;
+				}
+			}
+		}
+	}
+	.swiper-pagination-box {
+		width: 100%;
+		height: 10px;
+		.swiper-pagination {
+			right: 20px;
+			bottom: 0;
+			.swiper-pagination-bullet {
+				width: 14px;
+				height: 14px;
+				margin-left: 7px;
+				margin-right: 7px;
+				background: #000;
+				&.swiper-pagination-bullet-active {
+					background: #ADABAB;
+				}
+			}
+		}
+	}
+}

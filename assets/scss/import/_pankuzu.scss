@@ -1,0 +1,30 @@
+.pankuzu{
+	ul{
+		margin:22px;
+		li{
+			font-size: 16px;
+			display: inline-block;
+			position: relative;
+			margin-right:10px;
+			&::before{
+				margin-right:16px;
+				display: inline-block;
+				height: 10px;
+				width: 10px;
+				border-right:1px solid #999999;
+				border-bottom:1px solid #999999;
+				transform: rotate(-45deg);
+				content: "";
+			}
+			&:first-child::before{
+				display: none;
+			}
+			a{
+
+			}
+		}
+	}
+	@media (max-width: 768px) {
+		display: none;
+	}
+}

@@ -1,0 +1,241 @@
+.index-sec {
+	margin: 0 0 60px;
+}
+
+#index-about {
+	padding-bottom: 40px;
+}
+
+.bg-gray {
+	background: #F7F7F7;
+	padding: 40px 0;
+	&.mb {
+		margin-bottom: 40px;
+	}
+}
+
+.index-news-list-box {
+	margin-bottom: 30px;
+	ul {
+		li {
+			border-bottom: #ccc 1px solid;
+			padding: 20px 0 20px;
+			dl {
+				margin: 0;
+				padding: 0;
+				//display: flex;
+				//-webkit-justify-content: flex-start;
+				//justify-content: flex-start;
+				dt {
+					margin-bottom: 2px;
+					width: 100%;
+					.date {
+						@include fsz($sp-fsz-xd12);
+						color: #999;
+						//@include fsz(22);
+						//@include fsz(15.4);
+						//@include fsz(11);
+					}
+					.icon {
+						@include fsz($sp-fsz-xd12);
+						//@include fsz(9);
+						margin-left: 1em;
+						padding: 4px 1em;
+						width: 10em;
+						color: #fff;
+						display: inline-block;
+						text-align: center;
+						line-height: 1;
+						&.icon-new {
+							background-color: $colorNew;
+						}
+						&.icon-event {
+							background-color: $colorEvent;
+						}
+						&.icon-open{
+							background-color: $colorOpen;
+						}
+					}
+					//white-space: nowrap;
+				}
+				dd {
+					width: 100%;
+					margin-bottom: 0;
+					padding-top: 4px;
+					a {
+						&:hover {
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.index-topics-list-box {
+	ul {
+		li {
+			 margin-bottom: 30px;
+			.box {
+				.image-box {
+					margin-bottom: 18px;
+				}
+				.txt-box {
+					dl {
+						dt {
+							@include fsz($sp-fsz-xd12);
+							color: #999;
+							margin-bottom: 5px;
+						}
+						dd {
+							@include fsz($sp-fsz-xd16);
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#index-sec-point {
+}
+
+#index-point-pc {
+	display: none;
+}
+#index-point-sp {
+	margin-bottom: 30px;
+	.swiper-wrapper {
+		.swiper-slide {
+			//a {
+				.image-box {
+					z-index: 5;
+				}
+				.txt-box {
+					position: relative;
+					z-index: 10;
+					margin: -24px auto 0;
+					//width: calc(100% - 40px);
+					width: 90%;
+					height: 48px;
+					background: #121111;
+					p {
+						@include fsz($pc-fsz-xd16);
+						color: #fff;
+						line-height: 48px;
+						text-align: center;
+					}
+				}
+			//}
+		}
+	}
+}
+
+.index-scene-sp-box {
+	position: relative;
+	&::before {
+		content: "";
+		background: #FAF5FF;
+		//width: 282px;
+		width: 84%;
+		//height: 143px;
+		height: 50%;
+		position: absolute;
+		left: 0;
+		top: 50px;
+	}
+}
+
+#index-scene-sp {
+	margin-bottom: 20px;
+	.subttl {
+		@extend .ff-en;
+		display: none;
+	}
+	&.swiper-container {
+		//overflow: visible;
+	}
+	.swiper-wrapper {
+		.swiper-slide {
+			.ttl-box {
+				position: relative;
+				background: #fff;
+				p {
+					@include fsz($sp-fsz-xd18);
+				}
+			}
+			.txt-box {
+				display: none;
+			}
+			.image-box {
+			}
+		}
+	}
+	.swiper-pagination.swiper-pagination-fraction {
+		@extend .ff-en;
+		@include fsz($sp-fsz-xd40);
+		color: #777;
+		font-weight: 100;
+		bottom: 0;
+		.swiper-pagination-current {
+			@extend .ff-en;
+			@include fsz($sp-fsz-xd40);
+			color: $red;
+			font-weight: 300;
+		}
+		.swiper-pagination-total {
+			@extend .ff-en;
+			@include fsz($sp-fsz-xd24);
+			color: #777;
+			font-weight: 300;
+		}
+	}
+	.swiper-navigation-box {
+		margin-top: 20px;
+		display: flex;
+		-webkit-justify-content: space-between;
+		justify-content: space-between;
+		.swiper-button-prev-arrow,.swiper-button-next-arrow {
+			width: 24px;
+			cursor: pointer;
+			position: relative;
+			z-index: 20;
+			img {
+				width: 100%;
+				height: auto;
+				line-height: 0;
+			}
+		}
+		.swiper-button-prev-arrow {
+		}
+		.swiper-button-next-arrow {
+		}
+	}
+}
+
+.gallery-list-box {
+	ul {
+		display: flex;
+		-webkit-justify-content: space-between;
+		justify-content: space-between;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		&::after {
+			content: "";
+			width: calc(33% - 6px);
+			display: block;
+		}
+		li {
+			margin-bottom: 8px;
+			width: calc(33% - 6px);
+			img {
+				width: 100%;
+				height: auto;
+				line-height: 0;
+			}
+		}
+	}
+}
+

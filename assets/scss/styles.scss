@@ -1,0 +1,61 @@
+@charset "UTF-8";
+  
+@import "import/vars";
+@import "import/reset";
+@import "import/mixin";
+@import "import/common-sp";
+@import "import/module";
+@import "import/container-sp";
+@import "import/component-sp";
+@import "import/layout-sp";
+@import "import/contentIndexMain-sp";
+@import "import/pageIndex-sp";
+
+
+/*追加*/
+@import "import/page-main-area"; 
+@import "import/pankuzu"; 
+@import "import/news-topics";
+@import "import/search";
+@import "import/faq";
+/*追加*/
+
+
+@import "import/form-sp";
+@import "import/slidebar";
+@import "import/swiper";
+@import "import/zindex";
+@import "import/ie11";
+
+@media (min-width: 768px) {
+	@import "import/common-tb";
+	@import "import/container-tb";
+	@import "import/component-tb";
+	@import "import/layout-tb";
+	@import "import/contentIndexMain-tb";
+	@import "import/pageIndex-tb";
+}
+
+@media (min-width: 992px) {
+	@import "import/common-pc";
+	@import "import/container-pc";
+	@import "import/component-pc";
+	@import "import/contentIndexMain-pc";
+	@import "import/pageIndex-pc";
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 1300px) {
+	@import "import/layout-pc";
+}
+
+@media (min-width: 1350px) {
+	@import "import/layout-pc-wide";
+}
+
+@media (min-width: 1400px) {
+	@import "import/contentIndexMain-pc-wide";
+	@import "import/pageIndex-pc-wide";
+}

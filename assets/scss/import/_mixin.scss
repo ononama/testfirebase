@@ -1,0 +1,26 @@
+@mixin fsz( $size: 18, $base: 10 ) {
+	font-size: $size + px;
+	font-size: ($size / $base) * 1rem;
+}
+
+@mixin fszi( $size: 18, $base: 10 ) {
+	font-size: $size + px !important;
+	font-size: ($size / $base) * 1rem !important;
+}
+
+@mixin mp($margin: 0, $padding: 0) {
+	margin: $margin;
+	padding: $padding;
+}
+
+@mixin m0a() {
+	margin: 0 auto;
+}
+
+@mixin m($margin: 0) {
+	margin: $margin;
+}
+
+@mixin p($padding: 0) {
+	padding: $padding;
+}

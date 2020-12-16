@@ -1,0 +1,17 @@
+{
+  "name": "testfire",
+  "version": "1.0.0",
+  "description": "testfire",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  },
+  "scripts": {
+    "test": "testfire"
+  },
+  "author": "testfire",
+  "license": "ISC"
+}

@@ -1,0 +1,33 @@
+.ta-l { text-align: left; }
+.ta-c { text-align: center; }
+.ta-r { text-align: right; }
+
+.image-box {
+	line-height: 0;
+	img {
+		width: 100%;
+		height: auto;
+		line-height: 0;
+	}
+	&.mb {
+		margin-bottom: 20px;
+	}
+	&.border {
+		border: #999 solid 1px;
+	}
+}
+
+.ls0 {
+	letter-spacing: 0 !important;
+}
+
+.mb0 {
+	margin-bottom: 0 !important;
+}
+
+.pb0 {
+	padding-bottom: 0 !important;
+}
+.mb1em {
+	margin-bottom: 1em !important;
+}

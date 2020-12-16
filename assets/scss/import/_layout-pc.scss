@@ -1,0 +1,87 @@
+.brand-list-sp-box {
+	display: none;
+}
+
+.brand-list-pc-box {
+	display: block;
+}
+
+
+header {
+	width: 100%;
+	height: $pc-header-hegiht;
+	position: fixed;
+	top: 0;
+	.header-box {
+		.box-lr {
+			.hamburger-menu-box {
+				display: none;
+			}
+			display: flex;
+			-webkit-justify-content: space-between;
+			justify-content: space-between;
+			.box-l {
+				width: auto;
+				padding-top: 25px;
+				padding-left: 30px;
+				.logo {
+					margin-bottom: 0;
+					line-height: 0;
+					height: 32px;
+					img {
+						width: auto;
+						height: 100%;
+					}
+				}
+			}
+			.box-r {
+				width: auto;
+				.gnav-box {
+					display: table;
+					padding-right: 10px;
+					.gnav-other {
+						display: table-cell;
+						vertical-align: middle;
+						ul {
+							width: 234px;
+						}
+					}
+					nav {
+						display: table-cell;
+						ul {
+							display: table;
+							li {
+								display: table-cell;
+								height: $pc-header-hegiht;
+								vertical-align: middle;
+								&:last-child {
+									padding-right: 0;
+								}
+								a {
+									margin: 0 50px 0 0;
+									text-decoration: none;
+									@include fsz($pc-fsz-xd14);
+									font-weight: 700;
+									position: relative;
+									&:hover {
+										&::after {
+											content: "";
+											width: 100%;
+											height: 5px;
+											background: $red;
+											position: absolute;
+											left: 0;
+											bottom: -12px;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+

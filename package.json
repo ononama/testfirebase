@@ -1,8 +1,8 @@
 {
   "name": "testono",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "testono",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node scripts/build.js",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/ononama/testfirebase.git"
   },
-  "author": "",
+  "author": "testono",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ononama/testfirebase/issues"
